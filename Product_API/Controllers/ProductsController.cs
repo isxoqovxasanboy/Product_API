@@ -22,7 +22,7 @@ namespace Product_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostProduct(Product product)
+        public async Task<IActionResult> PostProduct(Product? product)
         {
             return Ok(_repository.Add(product));
         }

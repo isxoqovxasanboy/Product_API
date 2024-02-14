@@ -1,4 +1,6 @@
-﻿namespace Product_API.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Product_API.Models
 {
     public class Product
     {
